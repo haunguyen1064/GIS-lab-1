@@ -27,3 +27,4 @@ This project visualizes parking lots using the ArcGIS JavaScript API. It provide
 - `data.js`: Contains parking lot data.
 - `images/`: Contains icons and other assets.
 - `districts/`: Contains GeoJSON files for district boundaries used in the map visualization.
+- `lines/`: Contains GeoJSON files for road and line data used in the map visualization.
