@@ -640,10 +640,10 @@ const data = [
   },
   {
     id: "88",
-    title: "Bãi xe Đường Nguyễn Văn Quá",
+    title: "Bãi xe Tân Thới Hiệp",
     longLat: [106.641350688, 10.86070335],
     address:
-      "88 Đường Nguyễn Văn Quá, Quận 12, Thành phố Hồ Chí Minh, Việt Nam",
+      "88 Hẻm 8, đường Tân Thới Hiệp 6, Quận 12, Thành phố Hồ Chí Minh, Việt Nam",
     totalSlots: 60,
     availableSlots: 40,
   },

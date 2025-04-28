@@ -1,5 +1,6 @@
 import districts from "./districts/index.js";
 import parkingLots from "./parking-lot/index.js";
+import lines from "./lines/index.js";
 
 require([
   "esri/Map",
@@ -32,20 +33,25 @@ require([
     });
   };
 
+  // Polygon: Districts
   const districtLayer = new GraphicsLayer();
   districts.forEach(function (data) {
     districtLayer.add(createGraphic(data));
   });
 
-  // const streetLayer = new GraphicsLayer();
+  // Lines: streets
+  const lineLayer = new GraphicsLayer();
+  lines.forEach(function (data) {
+    lineLayer.add(createGraphic(data));
+  });
 
-  //     map.add(streetLayer);
-
+  // Points: Parking lots
   var pointsLayer = new GraphicsLayer();
   parkingLots.forEach((packingLot) => {
     pointsLayer.add(createGraphic(packingLot));
   });
 
-  map.add(districtLayer);
-  map.add(pointsLayer);
+  map.add(districtLayer); // polygon layer
+  map.add(lineLayer); // line layer
+  map.add(pointsLayer); // point layer
 });
