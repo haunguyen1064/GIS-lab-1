@@ -1,6 +1,6 @@
 const name = "Huyện Hóc Môn";
 const population = 422471;
-const parkingLots = 14;
+const parkingLots = 2;
 const area = 109;
 const symbol = {
   color: [247, 231, 119, 0.33],

@@ -1,6 +1,6 @@
 const name = "Quận Bình Tân";
 const population = 702650;
-const parkingLots = 28;
+const parkingLots = 9;
 const area = 52.02;
 const symbol = {
   color: [47, 123, 105, 0.53],

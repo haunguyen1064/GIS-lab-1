@@ -1,6 +1,6 @@
 const name = "Quận Gò Vấp";
 const population = 676899;
-const parkingLots = 35;
+const parkingLots = 4;
 const area = 19.74;
 const symbol = {
   color: [61, 16, 50, 0.56],

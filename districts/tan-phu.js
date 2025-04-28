@@ -1,6 +1,6 @@
 const name = "Quận Tân Phú";
 const population = 485348;
-const parkingLots = 11;
+const parkingLots = 2;
 const area = 16.06;
 const symbol = {
   color: [82, 186, 176, 0.21],

@@ -1,6 +1,6 @@
 const name = "Huyện Nhà Bè";
 const population = 175360;
-const parkingLots = 4;
+const parkingLots = 3;
 const area = 100.43;
 const symbol = {
   color: [116, 254, 104, 0.56],

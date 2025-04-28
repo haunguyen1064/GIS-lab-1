@@ -1,4 +1,5 @@
 import districts from "./districts/index.js";
+import parkingLots from "./parking-lot/index.js";
 
 require([
   "esri/Map",
@@ -36,5 +37,15 @@ require([
     districtLayer.add(createGraphic(data));
   });
 
+  // const streetLayer = new GraphicsLayer();
+
+  //     map.add(streetLayer);
+
+  var pointsLayer = new GraphicsLayer();
+  parkingLots.forEach((packingLot) => {
+    pointsLayer.add(createGraphic(packingLot));
+  });
+
   map.add(districtLayer);
+  map.add(pointsLayer);
 });

@@ -1,5 +1,5 @@
 const name = "Quận Bình Thạnh";
-const parkingLots = 22;
+const parkingLots = 5;
 const population = 499000;
 const area = 20.78;
 const symbol = {

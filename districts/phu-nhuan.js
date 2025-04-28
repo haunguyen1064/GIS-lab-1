@@ -1,6 +1,6 @@
 const name = "Quận Phú Nhuận";
 const population = 182477;
-const parkingLots = 35;
+const parkingLots = 1;
 const area = 4.86;
 const symbol = {
   color: [77, 25, 141, 0.16],

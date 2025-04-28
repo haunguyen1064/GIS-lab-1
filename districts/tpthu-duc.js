@@ -1,6 +1,6 @@
 const name = "Thành Phố Thủ Đức";
 const population = 1013795;
-const parkingLots = 30;
+const parkingLots = 5;
 const area = 211.56;
 const symbol = {
   color: [126, 168, 93, 0.31],

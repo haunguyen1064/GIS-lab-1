@@ -1,6 +1,6 @@
 const name = "Quận 6";
 const population = 258945;
-const parkingLots = 10;
+const parkingLots = 3;
 const area = 7.14;
 const symbol = {
   color: [156, 60, 209, 0.37],

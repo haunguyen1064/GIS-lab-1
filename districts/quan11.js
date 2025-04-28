@@ -1,6 +1,6 @@
 const name = "Quận 11"
 const population = 332536
-const parkingLots = 9;
+const parkingLots = 2;
 const area = 5.14
 const symbol = {
   color: [143, 131, 207, 0.28],
