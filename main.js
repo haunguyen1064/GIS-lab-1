@@ -7,7 +7,7 @@ require([
   "esri/layers/GraphicsLayer",
 ], function (Map, MapView, Graphic, GraphicsLayer) {
   var map = new Map({
-    basemap: "streets-navigation-vector",
+    basemap: "topo-vector",
   });
   map.on("load", function () {
     map.graphics.enableMouseEvents();

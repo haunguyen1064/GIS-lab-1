@@ -1,6 +1,7 @@
 const name = "Huyện Củ Chi";
-const population = 100000;
-const area = 123.45;
+const population = 403038;
+const parkingLots = 7;
+const area = 435;
 const symbol = {
   color: [11, 0, 175, 0.51],
 };
@@ -283,6 +284,7 @@ const rings = [
 export default {
   name,
   population,
+  parkingLots,
   area,
   rings,
   symbol,

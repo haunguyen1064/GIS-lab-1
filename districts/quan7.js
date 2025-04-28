@@ -1,15 +1,11 @@
-// Chỉnh tên đia điểm
 const name = "Quận 7";
-// Chỉnh số dân ở đây
-const population = 360155;
-// Chỉnh diện tích ở đây
+const population = 324620;
+const parkingLots = 21;
 const area = 35.69;
 const symbol = {
-  // Chỉnh vùng màu ở chỗ này
   color: [212, 186, 240, 0.52],
 };
 
-// Thêm ranh giới ở đây
 const rings = [
   //bắt đầu ranh giới quận 7 - nhà bè
   [106.6902456282027, 10.72539298086714],
@@ -308,6 +304,7 @@ const rings = [
 export default {
   name,
   population,
+  parkingLots,
   area,
   rings,
   symbol,

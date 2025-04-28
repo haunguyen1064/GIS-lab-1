@@ -1,5 +1,6 @@
 const name = "Huyện Nhà Bè";
 const population = 175360;
+const parkingLots = 4;
 const area = 100.43;
 const symbol = {
   color: [116, 254, 104, 0.56],
@@ -820,6 +821,7 @@ const rings = [
 export default {
   name,
   population,
+  parkingLots,
   area,
   rings,
   symbol,

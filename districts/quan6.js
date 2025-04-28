@@ -1,15 +1,11 @@
-// Chỉnh tên đia điểm
 const name = "Quận 6";
-// Chỉnh số dân ở đây
-const population = 233561;
-// Chỉnh diện tích ở đây
+const population = 258945;
+const parkingLots = 10;
 const area = 7.14;
 const symbol = {
-  // Chỉnh vùng màu ở chỗ này
   color: [156, 60, 209, 0.37],
 };
 
-// Thêm ranh giới ở đây
 const rings = [
   [106.65501703, 10.74614569], // quan 6 -> quan 5, quan 8
 
@@ -604,6 +600,7 @@ const rings = [
 export default {
   name,
   population,
+  parkingLots,
   area,
   rings,
   symbol,

@@ -1,5 +1,6 @@
 const name = "Huyện Bình Chánh";
-const population = 744508;
+const population = 820000;
+const parkingLots = 10;
 const area = 252.56;
 const symbol = {
   color: [17, 10, 104, 0.24],
@@ -1692,6 +1693,7 @@ const rings = [
 export default {
   name,
   population,
+  parkingLots,
   area,
   rings,
   symbol,

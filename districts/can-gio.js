@@ -1,5 +1,6 @@
 const name = "Huyện Cần Giờ";
 const population = 74960;
+const parkingLots = 5;
 const area = 704.45;
 const symbol = {
   color: [208, 190, 17, 0.59],
@@ -663,6 +664,7 @@ const rings = [
 export default {
   name,
   population,
+  parkingLots,
   area,
   rings,
   symbol,

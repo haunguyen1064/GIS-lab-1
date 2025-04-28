@@ -1,6 +1,7 @@
 const name = "Quận Tân Bình";
-const population = 100000;
-const area = 123.45;
+const population = 474792;
+const parkingLots = 3;
+const area = 22.38;
 const symbol = {
   color: [123, 131, 105, 0.28],
 };
@@ -80,6 +81,7 @@ const rings = [
 export default {
   name,
   population,
+  parkingLots,
   area,
   rings,
   symbol,

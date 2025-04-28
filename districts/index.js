@@ -25,7 +25,8 @@ const POINT_TEMPLATE_AREA = {
   title: "{name}",
   content:
     "Diện tích: <b>{area} km<sup>2</sup></b>.<br>" +
-    "Dân số: <b>{population} người</b>.",
+    "Dân số: <b>{population} người</b>.<br>" +
+    "Số lượng bãi xe thông minh: <b>{parkingLots} bãi xe</b>.",
 };
 
 const districtsData = [

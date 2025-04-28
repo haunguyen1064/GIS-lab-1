@@ -1,11 +1,11 @@
 const name = "Quận Tân Phú";
 const population = 485348;
-const area = 15.97;
+const parkingLots = 11;
+const area = 16.06;
 const symbol = {
   color: [82, 186, 176, 0.21],
 };
 
-// Thêm ranh giới ở đây
 const rings = [
   // Quay theo chiều kim đồng hồ của Quận Tân Phú
   // Giap Q12
@@ -630,6 +630,7 @@ const rings = [
 export default {
   name,
   population,
+  parkingLots,
   area,
   rings,
   symbol,

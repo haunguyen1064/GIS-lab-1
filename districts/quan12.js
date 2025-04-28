@@ -1,6 +1,7 @@
 const name = "Quận 12"
-const population = 620146
-const area = 52.74
+const population = 520175
+const parkingLots = 17;
+const area = 51.89
 const symbol = {
   color: [172, 130, 19, 0.50],
 };
@@ -863,5 +864,6 @@ export default {
   population,
   area,
   rings,
-  symbol
+  symbol,
+  parkingLots
 };

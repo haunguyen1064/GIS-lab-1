@@ -1,6 +1,7 @@
 const name = "Huyện Hóc Môn";
-const population = 100000;
-const area = 123.45;
+const population = 422471;
+const parkingLots = 14;
+const area = 109;
 const symbol = {
   color: [247, 231, 119, 0.33],
 };
@@ -463,4 +464,11 @@ const rings = [
   // end giáp huyện củ chi
 ];
 
-export default { name, population, area, rings, symbol };
+export default {
+  name,
+  population,
+  parkingLots,
+  area,
+  rings,
+  symbol,
+};

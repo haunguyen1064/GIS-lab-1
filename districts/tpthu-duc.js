@@ -1,15 +1,11 @@
-// Chỉnh tên đia điểm
 const name = "Thành Phố Thủ Đức";
-// Chỉnh số dân ở đây
 const population = 1013795;
-// Chỉnh diện tích ở đây
+const parkingLots = 30;
 const area = 211.56;
 const symbol = {
-  // Chỉnh vùng màu ở chỗ này
   color: [126, 168, 93, 0.31],
 };
 
-// Thêm ranh giới ở đây
 const rings = [
   //bắt đầu ranh giới quận 7 - thủ đức
   [106.76942969081568, 10.744302274314782],
@@ -1398,4 +1394,4 @@ const rings = [
   [106.76942969081568, 10.744302274314782],
 ];
 
-export default { name, population, area, rings, symbol };
+export default { name, population, area, rings, symbol, parkingLots };

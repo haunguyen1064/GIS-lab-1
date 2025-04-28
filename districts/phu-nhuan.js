@@ -1,5 +1,6 @@
 const name = "Quận Phú Nhuận";
-const population = 163961;
+const population = 182477;
+const parkingLots = 35;
 const area = 4.86;
 const symbol = {
   color: [77, 25, 141, 0.16],
@@ -265,6 +266,7 @@ const rings = [
 export default {
   name,
   population,
+  parkingLots,
   area,
   rings,
   symbol,

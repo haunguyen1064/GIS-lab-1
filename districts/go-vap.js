@@ -1,6 +1,7 @@
 const name = "Quận Gò Vấp";
-const population = 100000;
-const area = 123.45;
+const population = 676899;
+const parkingLots = 35;
+const area = 19.74;
 const symbol = {
   color: [61, 16, 50, 0.56],
 };
@@ -555,6 +556,7 @@ const rings = [
 export default {
   name,
   population,
+  parkingLots,
   area,
   rings,
   symbol,
